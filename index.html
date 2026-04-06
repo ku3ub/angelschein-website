@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelschein – Fischerprüfung App | Offizieller Fragenkatalog 2026</title>
+  <meta name="description" content="Bereite dich mit über 2.800 offiziellen Prüfungsfragen auf die Fischerprüfung vor. Bayern, Baden-Württemberg, Hamburg & Thüringen. Kostenlos für iPhone." />
+  <meta name="keywords" content="Angelschein, Fischerprüfung, Angelprüfung, Fragenkatalog 2026, Prüfungsvorbereitung, Bayern, Baden-Württemberg, Hamburg, Thüringen, App" />
+  <meta name="author" content="YCApps UG (haftungsbeschränkt)" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Angelschein – Fischerprüfung App" />
+  <meta property="og:description" content="Über 2.800 offizielle Prüfungsfragen 2026. Kostenlos für iPhone." />
+  <meta property="og:image" content="https://angel-schein.online/icon.png" />
+  <meta property="og:url" content="https://angel-schein.online" />
+  <meta property="og:type" content="website" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://angel-schein.online/" />
+  <link rel="icon" type="image/png" href="icon.png" />
+
+  <style>
+    :root {
+      --primary: #1a5276;
+      --primary-light: #2980b9;
+      --accent: #27ae60;
+      --bg: #f0f4f8;
+      --white: #ffffff;
+      --text: #2c3e50;
+      --muted: #7f8c8d;
+      --border: #dce8f0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--white);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--primary);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    nav .logo img {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+    nav a.cta-nav {
+      background: white;
+      color: var(--primary);
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    nav a.cta-nav:hover { text-decoration: none; opacity: 0.9; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #154360 100%);
+      color: white;
+      padding: 80px 24px 60px;
+      text-align: center;
+    }
+    .hero img.app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 26px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+      margin-bottom: 28px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 800;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .hero h1 span { color: #aed6f1; }
+    .hero p.subtitle {
+      font-size: clamp(16px, 2.5vw, 20px);
+      opacity: 0.85;
+      max-width: 600px;
+      margin: 0 auto 32px;
+    }
+    .badge-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .badge {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .hero .store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: white;
+      color: var(--primary);
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      transition: transform 0.15s;
+    }
+    .hero .store-btn:hover { transform: translateY(-2px); text-decoration: none; }
+    .hero .store-btn svg { width: 24px; height: 24px; fill: var(--primary); }
+
+    /* ── PHONE MOCKUPS ── */
+    .mockups {
+      background: var(--bg);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .mockups h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 40px;
+    }
+    .mockup-grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .mockup-phone {
+      width: 200px;
+      height: 400px;
+      background: var(--primary);
+      border-radius: 32px;
+      border: 6px solid #0d2c3e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.3);
+      font-size: 13px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .mockup-phone::before {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 6px;
+      background: #0d2c3e;
+      border-radius: 3px;
+    }
+    .mockup-label {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    /* ── FEATURES ── */
+    .features {
+      padding: 72px 24px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .features h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .feature-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    .feature-card .icon {
+      font-size: 32px;
+      margin-bottom: 14px;
+    }
+    .feature-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .feature-card p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── BUNDESLÄNDER ── */
+    .bundeslaender {
+      background: var(--bg);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .bundeslaender h2 {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .bundeslaender p {
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+    .bl-grid {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .bl-card {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 28px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .bl-card .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+
+    /* ── STATS ── */
+    .stats {
+      background: var(--primary);
+      color: white;
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .stats-grid {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .stat { flex: 1; min-width: 160px; }
+    .stat .number {
+      font-size: 42px;
+      font-weight: 900;
+      color: #aed6f1;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat .label {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      padding: 72px 24px;
+      text-align: center;
+      background: var(--white);
+    }
+    .cta-section h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .cta-section p {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 16px;
+    }
+    .cta-section .store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--primary);
+      color: white;
+      padding: 16px 32px;
+      border-radius: 14px;
+      font-size: 17px;
+      font-weight: 800;
+      box-shadow: 0 4px 20px rgba(26,82,118,0.3);
+      transition: transform 0.15s;
+    }
+    .cta-section .store-btn:hover { transform: translateY(-2px); text-decoration: none; opacity: 0.95; }
+    .cta-section .store-btn svg { width: 24px; height: 24px; fill: white; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0d2c3e;
+      color: rgba(255,255,255,0.5);
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+    }
+    footer .footer-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    footer a { color: rgba(255,255,255,0.6); }
+    footer a:hover { color: white; }
+
+    @media (max-width: 600px) {
+      .hero { padding: 60px 20px 40px; }
+      .stats-grid { gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <img src="icon.png" alt="Angelschein App Icon" />
+    Angelschein – Fischerprüfung
+  </div>
+  <a class="cta-nav" href="#download">Kostenlos laden</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img class="app-icon" src="icon.png" alt="Angelschein Quiz App Icon" />
+  <h1>Fischerprüfung bestehen –<br /><span>beim ersten Versuch</span></h1>
+  <p class="subtitle">Über 2.800 offizielle Prüfungsfragen 2026. Kostenlos. Ohne Anmeldung. Direkt auf deinem iPhone.</p>
+  <div class="badge-row">
+    <span class="badge">✅ Kostenlos</span>
+    <span class="badge">📋 Offizieller Fragenkatalog 2026</span>
+    <span class="badge">📍 4 Bundesländer</span>
+    <span class="badge">🌍 Englisch verfügbar</span>
+  </div>
+  <a class="store-btn" href="#download" id="download">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+    </svg>
+    Im App Store laden
+  </a>
+</section>
+
+<!-- MOCKUPS -->
+<section class="mockups">
+  <h2>Einfach. Effektiv. Prüfungsreif.</h2>
+  <div class="mockup-grid">
+    <div>
+      <div class="mockup-phone">Screenshot folgt in Kürze</div>
+      <div class="mockup-label">Prüfungs-Simulator</div>
+    </div>
+    <div>
+      <div class="mockup-phone">Screenshot folgt in Kürze</div>
+      <div class="mockup-label">Fragen nach Kategorie</div>
+    </div>
+    <div>
+      <div class="mockup-phone">Screenshot folgt in Kürze</div>
+      <div class="mockup-label">Auswertung</div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>Alles, was du für die Prüfung brauchst</h2>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="icon">📋</div>
+      <h3>Offizieller Fragenkatalog 2026</h3>
+      <p>Alle Fragen direkt aus den offiziellen Prüfungskatalogen – aktuell und vollständig.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🎯</div>
+      <h3>Prüfungs-Simulator</h3>
+      <p>60 Fragen unter echten Prüfungsbedingungen mit Zeitlimit – wie die echte Prüfung.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📚</div>
+      <h3>Nach Kategorie lernen</h3>
+      <p>Fischkunde, Gewässerkunde, Gesetzeskunde und mehr – gezielt Schwächen aufarbeiten.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔖</div>
+      <h3>Fragen markieren</h3>
+      <p>Schwierige Fragen speichern und später gezielt wiederholen.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📊</div>
+      <h3>Detaillierte Auswertung</h3>
+      <p>Nach jeder Prüfung siehst du genau, welche Kategorien du noch verbessern musst.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🌍</div>
+      <h3>Englische Übersetzungen</h3>
+      <p>Alle Fragen und Antworten auch auf Englisch – ideal für alle, die Deutsch noch lernen.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BUNDESLÄNDER -->
+<section class="bundeslaender">
+  <h2>Verfügbare Bundesländer</h2>
+  <p>Weitere Bundesländer folgen in zukünftigen Updates.</p>
+  <div class="bl-grid">
+    <div class="bl-card"><span class="dot"></span>Bayern</div>
+    <div class="bl-card"><span class="dot"></span>Baden-Württemberg</div>
+    <div class="bl-card"><span class="dot"></span>Hamburg</div>
+    <div class="bl-card"><span class="dot"></span>Thüringen</div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat">
+      <div class="number">2.800+</div>
+      <div class="label">Offizielle Prüfungsfragen</div>
+    </div>
+    <div class="stat">
+      <div class="number">4</div>
+      <div class="label">Bundesländer</div>
+    </div>
+    <div class="stat">
+      <div class="number">100%</div>
+      <div class="label">Kostenlos nutzbar</div>
+    </div>
+    <div class="stat">
+      <div class="number">2026</div>
+      <div class="label">Aktueller Fragenkatalog</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Jetzt kostenlos starten</h2>
+  <p>Keine Anmeldung. Keine versteckten Kosten. Einfach laden und lernen.</p>
+  <a class="store-btn" href="#download">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+    </svg>
+    Im App Store laden
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+    <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a>
+    <a href="support.html">Support</a>
+  </div>
+  <p>© 2026 YCApps UG (haftungsbeschränkt). Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
