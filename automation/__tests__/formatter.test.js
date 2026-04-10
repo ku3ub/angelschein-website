@@ -20,7 +20,7 @@ describe('buildFrontmatter', () => {
     expect(result).toContain('title: "Angelschein Bayern Guide"');
     expect(result).toContain('date: 2026-04-09');
     expect(result).toContain('slug: angelschein-bayern-guide');
-    expect(result).toContain('image: https://images.unsplash.com/photo-abc123');
+    expect(result).toContain('image: "https://images.unsplash.com/photo-abc123"');
   });
 
   it('escapes double quotes in title', () => {

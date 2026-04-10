@@ -7,7 +7,7 @@ function buildFrontmatter({ title, date, description, slug, image }) {
     `date: ${date}`,
     `description: "${description.replace(/"/g, '\\"')}"`,
     `slug: ${slug}`,
-    `image: ${image}`,
+    `image: "${image}"`,
     '---',
   ].join('\n');
 }

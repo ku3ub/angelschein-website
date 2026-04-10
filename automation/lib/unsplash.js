@@ -15,6 +15,9 @@ async function fetchImage(query, accessKey) {
     throw new Error(`Unsplash API error: ${res.status} ${res.statusText}`);
   }
   const data = await res.json();
+  if (!data?.urls?.regular) {
+    throw new Error('Unsplash response missing urls.regular');
+  }
   return data.urls.regular;
 }
 
