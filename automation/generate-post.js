@@ -12,7 +12,12 @@ const QUEUE_PATH = path.join(__dirname, '../_data/post-queue.json');
 const POSTS_DIR = path.join(__dirname, '../_posts');
 
 async function main() {
-  const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8'));
+  let queue;
+  try {
+    queue = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8'));
+  } catch (err) {
+    throw new Error(`Failed to read queue file at ${QUEUE_PATH}: ${err.message}`);
+  }
   const topic = getNextPending(queue);
   if (!topic) {
     console.log('No pending posts in queue. Exiting.');
@@ -29,7 +34,9 @@ async function main() {
     max_tokens: 2048,
     messages: [{ role: 'user', content: buildPrompt(topic) }],
   });
-  const body = message.content[0].text;
+  const textBlock = message.content.find(b => b.type === 'text');
+  if (!textBlock) throw new Error('Claude returned no text content block');
+  const body = textBlock.text;
 
   const date = new Date().toISOString().split('T')[0];
   const frontmatter = buildFrontmatter({
