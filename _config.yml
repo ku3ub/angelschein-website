@@ -1,0 +1,16 @@
+title: Angelschein Master
+description: Bereite dich mit über 2.800 offiziellen Prüfungsfragen auf die Fischerprüfung vor.
+url: "https://angel-schein.online"
+baseurl: ""
+permalink: /blog/:year/:month/:slug/
+plugins:
+  - jekyll-sitemap
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - automation/
+  - node_modules/
+  - docs/
+  - package.json
+  - package-lock.json
