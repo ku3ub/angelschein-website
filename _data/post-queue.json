@@ -1,0 +1,74 @@
+[
+  {
+    "status": "pending",
+    "title": "Angelschein Bayern: Alles was du wissen musst",
+    "slug": "angelschein-bayern-guide",
+    "primaryKeyword": "Angelschein Bayern",
+    "secondaryKeywords": ["Fischerprüfung Bayern", "Angelschein Bayern bestehen", "Fischerprüfung Bayern Fragen"],
+    "unsplashQuery": "fishing bavaria germany lake",
+    "description": "Alles Wichtige zum Angelschein in Bayern: Prüfungsablauf, Kosten, Themen und Tipps."
+  },
+  {
+    "status": "pending",
+    "title": "Fischerprüfung Hamburg bestehen – Tipps und Ablauf",
+    "slug": "fischerprufung-hamburg",
+    "primaryKeyword": "Fischerprüfung Hamburg",
+    "secondaryKeywords": ["Angelschein Hamburg", "Fischerprüfung Hamburg Fragen", "Angelschein Hamburg kosten"],
+    "unsplashQuery": "fishing harbor germany water",
+    "description": "So läuft die Fischerprüfung in Hamburg ab: Anmeldung, Kosten, Themen und die häufigsten Fehler."
+  },
+  {
+    "status": "pending",
+    "title": "Angelschein Baden-Württemberg: So bereitest du dich vor",
+    "slug": "angelschein-baden-wurttemberg",
+    "primaryKeyword": "Angelschein Baden-Württemberg",
+    "secondaryKeywords": ["Fischerprüfung Baden-Württemberg", "Angelschein BW bestehen", "Angelprüfung Baden-Württemberg"],
+    "unsplashQuery": "fishing black forest germany river",
+    "description": "Der komplette Guide zur Fischerprüfung in Baden-Württemberg: Ablauf, Prüfungsthemen und Lerntipps."
+  },
+  {
+    "status": "pending",
+    "title": "Fischerprüfung Thüringen – Was du wissen musst",
+    "slug": "fischerprufung-thuringen",
+    "primaryKeyword": "Fischerprüfung Thüringen",
+    "secondaryKeywords": ["Angelschein Thüringen", "Angelschein Thüringen bestehen", "Fischerprüfung Thüringen Fragen"],
+    "unsplashQuery": "fishing thuringia germany forest river",
+    "description": "Alles zur Fischerprüfung in Thüringen: Anmeldeablauf, Lernthemen, Kosten und praktische Tipps."
+  },
+  {
+    "status": "pending",
+    "title": "Fischkunde für die Angelprüfung: Die wichtigsten Fischarten",
+    "slug": "fischkunde-angelprufung-fischarten",
+    "primaryKeyword": "Fischkunde Angelprüfung",
+    "secondaryKeywords": ["Fischarten Fischerprüfung", "Fischkunde lernen Angelschein", "Prüfungsfragen Fischkunde"],
+    "unsplashQuery": "freshwater fish germany river",
+    "description": "Welche Fischarten musst du für die Angelprüfung kennen? Die wichtigsten Arten kompakt erklärt."
+  },
+  {
+    "status": "pending",
+    "title": "Die häufigsten Fehler bei der Fischerprüfung – und wie du sie vermeidest",
+    "slug": "haufigste-fehler-fischerprufung",
+    "primaryKeyword": "Fischerprüfung Fehler",
+    "secondaryKeywords": ["Fischerprüfung nicht bestanden", "Fischerprüfung Tipps", "Angelschein Prüfung vorbereiten"],
+    "unsplashQuery": "study learning preparation exam",
+    "description": "Das sind die typischen Fehler, die beim Angelschein zum Durchfallen führen – und wie du sie von Anfang an vermeidest."
+  },
+  {
+    "status": "pending",
+    "title": "Gewässerkunde für den Angelschein: Was du wissen musst",
+    "slug": "gewasserkunde-angelschein",
+    "primaryKeyword": "Gewässerkunde Angelschein",
+    "secondaryKeywords": ["Gewässerkunde Fischerprüfung", "Gewässer Prüfungsfragen", "Ökologie Angelschein"],
+    "unsplashQuery": "german river lake ecology water",
+    "description": "Gewässerkunde ist ein zentrales Thema der Fischerprüfung. Hier erfährst du, was du dazu wissen musst."
+  },
+  {
+    "status": "pending",
+    "title": "Angelschein mit Kind: Ab welchem Alter ist Angeln erlaubt?",
+    "slug": "angelschein-mit-kind-alter",
+    "primaryKeyword": "Angelschein Kind",
+    "secondaryKeywords": ["Angelschein Mindestalter", "Kind angeln Deutschland", "Jugendlicher Angelschein"],
+    "unsplashQuery": "child fishing river family",
+    "description": "Ab welchem Alter darf man in Deutschland angeln? Was gilt für Kinder und Jugendliche beim Angelschein?"
+  }
+]
