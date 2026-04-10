@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} | Angelschein Master</title>
-  <meta name="description" content="{{ page.description }}" />
-  <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="icon" type="image/png" href="/icon.png" />
   <style>
     :root {
