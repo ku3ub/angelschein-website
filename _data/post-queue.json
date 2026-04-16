@@ -1,12 +1,14 @@
 [
   {
-    "status": "pending",
+    "status": "published",
     "title": "Angelschein Bayern: Alles was du wissen musst",
     "slug": "angelschein-bayern-guide",
     "primaryKeyword": "Angelschein Bayern",
     "secondaryKeywords": ["Fischerprüfung Bayern", "Angelschein Bayern bestehen", "Fischerprüfung Bayern Fragen"],
     "unsplashQuery": "fishing bavaria germany lake",
-    "description": "Alles Wichtige zum Angelschein in Bayern: Prüfungsablauf, Kosten, Themen und Tipps."
+    "description": "Alles Wichtige zum Angelschein in Bayern: Prüfungsablauf, Kosten, Themen und Tipps.",
+    "publishedDate": "2026-04-16",
+    "filename": "_posts/2026-04-16-angelschein-bayern-guide.md"
   },
   {
     "status": "pending",
