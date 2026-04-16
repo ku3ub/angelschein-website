@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -498,7 +500,10 @@
     <img src="icon.png" alt="Angelschein App Icon" />
     Angelschein Master
   </div>
-  <a class="cta-nav" href="#download">Kostenlos laden</a>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <a href="/blog/" style="color:rgba(255,255,255,0.85);font-size:14px;font-weight:600;">Blog</a>
+    <a class="cta-nav" href="#download">Kostenlos laden</a>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -671,6 +676,30 @@
     </div>
   </div>
 </section>
+
+<!-- BLOG PREVIEW -->
+{% if site.posts.size > 0 %}
+<section style="background:var(--bg);padding:72px 24px;">
+  <div style="max-width:1000px;margin:0 auto;">
+    <h2 style="font-size:28px;font-weight:800;color:var(--primary);text-align:center;margin-bottom:12px;">Ratgeber & Tipps</h2>
+    <p style="text-align:center;color:var(--muted);margin-bottom:40px;">Alles Wichtige rund um Angelschein und Fischerprüfung</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+      {% for post in site.posts limit:3 %}
+      <a href="{{ post.url }}" style="background:white;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1.5px solid var(--border);display:block;text-decoration:none;">
+        {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;height:180px;object-fit:cover;display:block;" loading="lazy" />{% endif %}
+        <div style="padding:20px 24px 24px;">
+          <h3 style="font-size:16px;font-weight:700;color:var(--primary);margin-bottom:8px;line-height:1.4;">{{ post.title }}</h3>
+          {% if post.description %}<p style="font-size:14px;color:var(--muted);line-height:1.6;margin:0;">{{ post.description }}</p>{% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="/blog/" style="display:inline-block;border:2px solid var(--primary);color:var(--primary);padding:12px 28px;border-radius:12px;font-weight:700;font-size:15px;">Alle Artikel ansehen →</a>
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <!-- FOOTER -->
 <footer>
