@@ -11,13 +11,15 @@
     "filename": "_posts/2026-04-16-angelschein-bayern-guide.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Fischerprüfung Hamburg bestehen – Tipps und Ablauf",
     "slug": "fischerprufung-hamburg",
     "primaryKeyword": "Fischerprüfung Hamburg",
     "secondaryKeywords": ["Angelschein Hamburg", "Fischerprüfung Hamburg Fragen", "Angelschein Hamburg kosten"],
     "unsplashQuery": "fishing harbor germany water",
-    "description": "So läuft die Fischerprüfung in Hamburg ab: Anmeldung, Kosten, Themen und die häufigsten Fehler."
+    "description": "So läuft die Fischerprüfung in Hamburg ab: Anmeldung, Kosten, Themen und die häufigsten Fehler.",
+    "publishedDate": "2026-04-20",
+    "filename": "_posts/2026-04-20-fischerprufung-hamburg.md"
   },
   {
     "status": "pending",
