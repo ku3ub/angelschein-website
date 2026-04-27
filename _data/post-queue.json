@@ -22,13 +22,15 @@
     "filename": "_posts/2026-04-20-fischerprufung-hamburg.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Angelschein Baden-Württemberg: So bereitest du dich vor",
     "slug": "angelschein-baden-wurttemberg",
     "primaryKeyword": "Angelschein Baden-Württemberg",
     "secondaryKeywords": ["Fischerprüfung Baden-Württemberg", "Angelschein BW bestehen", "Angelprüfung Baden-Württemberg"],
     "unsplashQuery": "fishing black forest germany river",
-    "description": "Der komplette Guide zur Fischerprüfung in Baden-Württemberg: Ablauf, Prüfungsthemen und Lerntipps."
+    "description": "Der komplette Guide zur Fischerprüfung in Baden-Württemberg: Ablauf, Prüfungsthemen und Lerntipps.",
+    "publishedDate": "2026-04-27",
+    "filename": "_posts/2026-04-27-angelschein-baden-wurttemberg.md"
   },
   {
     "status": "pending",
