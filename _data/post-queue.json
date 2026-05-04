@@ -33,13 +33,15 @@
     "filename": "_posts/2026-04-27-angelschein-baden-wurttemberg.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Fischerprüfung Thüringen – Was du wissen musst",
     "slug": "fischerprufung-thuringen",
     "primaryKeyword": "Fischerprüfung Thüringen",
     "secondaryKeywords": ["Angelschein Thüringen", "Angelschein Thüringen bestehen", "Fischerprüfung Thüringen Fragen"],
     "unsplashQuery": "fishing thuringia germany forest river",
-    "description": "Alles zur Fischerprüfung in Thüringen: Anmeldeablauf, Lernthemen, Kosten und praktische Tipps."
+    "description": "Alles zur Fischerprüfung in Thüringen: Anmeldeablauf, Lernthemen, Kosten und praktische Tipps.",
+    "publishedDate": "2026-05-04",
+    "filename": "_posts/2026-05-04-fischerprufung-thuringen.md"
   },
   {
     "status": "pending",
