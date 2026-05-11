@@ -44,13 +44,15 @@
     "filename": "_posts/2026-05-04-fischerprufung-thuringen.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Fischkunde für die Angelprüfung: Die wichtigsten Fischarten",
     "slug": "fischkunde-angelprufung-fischarten",
     "primaryKeyword": "Fischkunde Angelprüfung",
     "secondaryKeywords": ["Fischarten Fischerprüfung", "Fischkunde lernen Angelschein", "Prüfungsfragen Fischkunde"],
     "unsplashQuery": "freshwater fish germany river",
-    "description": "Welche Fischarten musst du für die Angelprüfung kennen? Die wichtigsten Arten kompakt erklärt."
+    "description": "Welche Fischarten musst du für die Angelprüfung kennen? Die wichtigsten Arten kompakt erklärt.",
+    "publishedDate": "2026-05-11",
+    "filename": "_posts/2026-05-11-fischkunde-angelprufung-fischarten.md"
   },
   {
     "status": "pending",
