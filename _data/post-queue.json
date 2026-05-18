@@ -55,13 +55,15 @@
     "filename": "_posts/2026-05-11-fischkunde-angelprufung-fischarten.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Die häufigsten Fehler bei der Fischerprüfung – und wie du sie vermeidest",
     "slug": "haufigste-fehler-fischerprufung",
     "primaryKeyword": "Fischerprüfung Fehler",
     "secondaryKeywords": ["Fischerprüfung nicht bestanden", "Fischerprüfung Tipps", "Angelschein Prüfung vorbereiten"],
     "unsplashQuery": "study learning preparation exam",
-    "description": "Das sind die typischen Fehler, die beim Angelschein zum Durchfallen führen – und wie du sie von Anfang an vermeidest."
+    "description": "Das sind die typischen Fehler, die beim Angelschein zum Durchfallen führen – und wie du sie von Anfang an vermeidest.",
+    "publishedDate": "2026-05-18",
+    "filename": "_posts/2026-05-18-haufigste-fehler-fischerprufung.md"
   },
   {
     "status": "pending",
