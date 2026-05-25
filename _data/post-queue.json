@@ -66,13 +66,15 @@
     "filename": "_posts/2026-05-18-haufigste-fehler-fischerprufung.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Gewässerkunde für den Angelschein: Was du wissen musst",
     "slug": "gewasserkunde-angelschein",
     "primaryKeyword": "Gewässerkunde Angelschein",
     "secondaryKeywords": ["Gewässerkunde Fischerprüfung", "Gewässer Prüfungsfragen", "Ökologie Angelschein"],
     "unsplashQuery": "german river lake ecology water",
-    "description": "Gewässerkunde ist ein zentrales Thema der Fischerprüfung. Hier erfährst du, was du dazu wissen musst."
+    "description": "Gewässerkunde ist ein zentrales Thema der Fischerprüfung. Hier erfährst du, was du dazu wissen musst.",
+    "publishedDate": "2026-05-25",
+    "filename": "_posts/2026-05-25-gewasserkunde-angelschein.md"
   },
   {
     "status": "pending",
