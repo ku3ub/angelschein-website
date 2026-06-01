@@ -77,12 +77,14 @@
     "filename": "_posts/2026-05-25-gewasserkunde-angelschein.md"
   },
   {
-    "status": "pending",
+    "status": "published",
     "title": "Angelschein mit Kind: Ab welchem Alter ist Angeln erlaubt?",
     "slug": "angelschein-mit-kind-alter",
     "primaryKeyword": "Angelschein Kind",
     "secondaryKeywords": ["Angelschein Mindestalter", "Kind angeln Deutschland", "Jugendlicher Angelschein"],
     "unsplashQuery": "child fishing river family",
-    "description": "Ab welchem Alter darf man in Deutschland angeln? Was gilt für Kinder und Jugendliche beim Angelschein?"
+    "description": "Ab welchem Alter darf man in Deutschland angeln? Was gilt für Kinder und Jugendliche beim Angelschein?",
+    "publishedDate": "2026-06-01",
+    "filename": "_posts/2026-06-01-angelschein-mit-kind-alter.md"
   }
 ]
